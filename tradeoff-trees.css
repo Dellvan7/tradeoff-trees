@@ -1,0 +1,55 @@
+
+.links line {
+  stroke: #999;
+  stroke-opacity: 0.8;
+}
+
+.nodes circle {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+text {
+	color: white;
+	text-anchor: middle;
+	font-family: "Arial";
+	font-size: 10;
+	fill: #fff;
+}
+
+flex-container {
+	display: flex;
+	align-items: left;
+	justify-content: left;
+}
+
+flex-subitem {
+	display: flex;
+	width: 50%;
+}
+
+right {
+	align-items: right;
+	justify-content: right;
+}
+
+left {
+	align-items: left;
+	justify-content: left;
+}
+
+flex-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+row {
+  width: 100%;
+}
+
+.link {
+    stroke: #777;
+    stroke-width: 2px;
+}
